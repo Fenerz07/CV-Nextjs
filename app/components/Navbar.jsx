@@ -7,12 +7,12 @@ import { Bars3Icon, XCircleIcon } from '@heroicons/react/24/solid'
 
 const navLink = [
   {
-    path: '#about',
-    title: 'About'
+    path: '#menu',
+    title: 'Menu'
   },
   {
-    path: '#projects',
-    title: 'Projects'
+    path: '#about',
+    title: 'About'
   },
   {
     path: '#contact',

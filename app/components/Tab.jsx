@@ -10,20 +10,18 @@ const Tabs = ({ children }) => {
 
   return (
     <div className="tabs">
-      <div className="tab-buttons">
+      <div className="flex">
         {children.map((tab, index) => (
           <button
             key={index}
             onClick={() => handleClick(index)}
-            className={activeTab === index ? 'active' : ''}
-          >
+            className="activeTab === index mr-2 font-extrabold text-lg text-blue-400 w-[100px] h-[40px]">
             {tab.props.title}
           </button>
         ))}
       </div>
-      <div className="tab-content ">
-        {children[activeTab]}
-      </div>
+      <hr/>
+      <div className="mt-4">{children[activeTab]}</div>
     </div>
   );
 };
