@@ -12,7 +12,6 @@ const Footer = () => {
                         <div>
                             <h1 className="text-2xl font-bold text-white">Contact</h1>
                             <p>hugom2005@free.fr</p>
-                            <p>Fenerz#5062</p>
                         </div>
                     </div>
                 </div>
