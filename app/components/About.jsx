@@ -16,10 +16,10 @@ const About = () => {
                         About Me
                     </h1>
                     <p className='text-white text-base sm:text-lg lg:text-xl mr-4 mb-2'>
-                        I'm a student in computer science and a front-end developer beginner based in France .
-                        I'm passionate about web development and I'm always looking to get better in development.
+                        I&apos;m a student in computer science and a front-end developer beginner based in France .
+                        I&apos;m passionate about web development and I&apos;m always looking to get better in development.
                         This website is my first website made with Nextjs for a school project.
-                        As you can see I'm a fan of pinguins and I love to play video games, I love cars, I love music and also hangout with my friends.
+                        As you can see I&apos;m a fan of pinguins and I love to play video games, I love cars, I love music and also hangout with my friends.
                     </p>
                     <IndexPage/>
                 </div>

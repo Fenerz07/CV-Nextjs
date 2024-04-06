@@ -5,9 +5,9 @@ return (
     <section className='mt-10 grid grid-cols-1 sm:grid-cols-2'>
         <div className='m-8'>
             <h1 className='font-extrabold text-xl mb-3'>My Socials Networks</h1>
-            <p>I'm always looking for new meets and oppotunities.
+            <p>I&apos;m always looking for new meets and oppotunities.
                 If you want to contact me, you absolutely can and my inbox is open for any questions or requests.
-                I'll be glad to help you on whatever you want !</p>
+                I&apos;ll be glad to help you on whatever you want !</p>
             <div className='flex m-3'>
                 <a href="https://github.com/Fenerz07" target="_blank">
                     <img src="images/github.svg" alt="github" className='w-[50px] h-[50px]' />

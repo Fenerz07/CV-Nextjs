@@ -13,7 +13,7 @@ const Cover = () => {
       <div className='grid grid-cols-1 sm:grid-cols-12'>
         <div className='col-span-7 place-self-center text-center sm:text-left ml-10'>
           <h1 className='text-white mb-4 text-4xl sm:text-5xl lg:text-6xl font-extrabold'><div className="text-transparent bg-clip-text bg-gradient-to-r from-blue-800 via-blue-500 to-blue-200">
-          Hi! I'm
+          Hi! I&apos;m
             <span>
               <br></br>
               <TypeAnimation

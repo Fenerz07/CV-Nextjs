@@ -32,7 +32,7 @@ const ExampleTabs = () => {
         <div>
           <ul>
             <li>Baccalauréat (Equivalent to High School Diploma) - 2023</li>
-            <li>Currently pursuing Bachelor's Degree in First Year - at Enigma, 2023 - Present</li>
+            <li>Currently pursuing Bachelor&apos;s Degree in First Year - at Enigma, 2023 - Present</li>
           </ul>
         </div>
       </Tab>
