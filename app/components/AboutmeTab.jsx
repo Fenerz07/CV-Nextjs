@@ -31,8 +31,12 @@ const ExampleTabs = () => {
       <Tab title="Education">
         <div>
           <ul>
-            <li>Baccalauréat (Equivalent to High School Diploma) - 2023</li>
-            <li>Currently pursuing Bachelor&apos;s Degree in First Year - at Enigma, 2023 - Present</li>
+            <li>Baccalauréat</li>
+            <li>Equivalent to High School Diploma</li>
+            <li>2023</li>
+            <li>Currently pursuing Bachelor&apos;s Degree in First Year</li>
+            <li>At Enigma</li>
+            <li>2023 - Present</li>
           </ul>
         </div>
       </Tab>
