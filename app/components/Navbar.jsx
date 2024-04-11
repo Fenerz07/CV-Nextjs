@@ -25,10 +25,10 @@ const Navbar = () => {
     return (
     <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90'>
         <div className='flex flex-wrap items-center justify-between mx-auto p-8'>
-        <Link href={"/"}><HomeModernIcon className='h-10 w-10 text-white' /></Link>
+        <Link href={"/"} aria-label="ReturntoTop Icon"><HomeModernIcon className='h-10 w-10 text-white' /></Link>
         <div className='mobile-menu block md:hidden'>
             {!navbarOpen ? ( 
-                <button className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white' onClick={() => setnavbarOpen(true)}>
+                <button className='aria-label="Phone Navbar" flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white' onClick={() => setnavbarOpen(true)}>
                     <Bars3Icon className='h-6 w-6 text-white' />
                 </button>
                 ) : (
