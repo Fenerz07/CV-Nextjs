@@ -3,7 +3,7 @@ import React ,{useState }from 'react'
 import Link from 'next/link'
 import Navlink from './Navlink'
 import MenuOverlay from './MenuOverlay'
-import { Bars3Icon, XCircleIcon } from '@heroicons/react/24/solid'
+import { Bars3Icon, XCircleIcon, HomeModernIcon } from '@heroicons/react/24/solid'
 
 const navLink = [
   {
@@ -25,7 +25,7 @@ const Navbar = () => {
     return (
     <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90'>
         <div className='flex flex-wrap items-center justify-between mx-auto p-8'>
-        <Link href={"/"} className="text-2xl md:text-5xl text-white font-semibold">Fenerz</Link>
+        <Link href={"/"}><HomeModernIcon className='h-10 w-10 text-white' /></Link>
         <div className='mobile-menu block md:hidden'>
             {!navbarOpen ? ( 
                 <button className='flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white' onClick={() => setnavbarOpen(true)}>
