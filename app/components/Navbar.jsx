@@ -28,11 +28,11 @@ const Navbar = () => {
         <Link href={"/"} aria-label="ReturntoTop Icon"><HomeModernIcon className='h-10 w-10 text-white' /></Link>
         <div className='mobile-menu block md:hidden'>
             {!navbarOpen ? ( 
-                <button className='aria-label="Phone Navbar" flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white' onClick={() => setnavbarOpen(true)}>
+                <button className='aria-label="Phone Navbar Opened" flex items-center px-3 py-2 border rounded border-slate-200 text-slate-200 hover:text-white hover:border-white' onClick={() => setnavbarOpen(true)}>
                     <Bars3Icon className='h-6 w-6 text-white' />
                 </button>
                 ) : (
-                <button onClick={() => setnavbarOpen(false)}>
+                <button className='aria-label="Phone Navbar Closed"' onClick={() => setnavbarOpen(false)}>
                     <XCircleIcon className='h-6 w-6 text-white' />
                 </button>
             )}
