@@ -21,7 +21,7 @@ const Tabs = ({ children }) => {
         ))}
       </div>
       <hr/>
-      <div className="mt-4">{children[activeTab]}</div>
+      <div className="mt-4 text-white">{children[activeTab]}</div>
     </div>
   );
 };

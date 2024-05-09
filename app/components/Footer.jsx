@@ -4,7 +4,7 @@ const Footer = () => {
         return (
             <footer>
                 <div className="container mx-auto">
-                    <div className="flex justify-between">
+                    <div className="flex justify-between text-white">
                         <div>
                             <h1 className="text-2xl font-bold text-white">Made By Fenerz</h1>
                             <p>03/2024</p>
