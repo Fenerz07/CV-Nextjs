@@ -23,8 +23,8 @@ const navLink = [
 const Navbar = () => {
     const [navbarOpen, setnavbarOpen] = useState(false)
     return (
-    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90'>
-        <div className='flex flex-wrap items-center justify-between mx-auto p-8'>
+    <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90 text-white'>
+        <div className='flex flex-wrap items-center justify-between mx-auto p-8 text-white'>
         <Link href={"/"} aria-label="ReturntoTop Icon"><HomeModernIcon className='h-10 w-10 text-white' /></Link>
         <div className='mobile-menu block md:hidden'>
             {!navbarOpen ? ( 
