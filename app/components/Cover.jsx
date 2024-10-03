@@ -35,7 +35,6 @@ const Cover = () => {
             </span>
           </div></h1>
           <p className='text-white text-base sm:text-lg lg:text-xl'>Welcome to my portfolio made with nextjs for a school project, The website was made for being the most ergonomic and ecologic as possible !</p>
-          <button onClick={openPdf} className="px-6 py-2 w-full sm:w-fit mr-4 bg-gradient-to-br from-blue-800 via-blue-500 to-blue-200 hover:bg-slate-200 text-black mt-3 mb-3">MY CV</button>
         </div>
         <div className='col-span-5 place-self-center mt-4'>
           <div className="rounded-full bg-[#181818] w-[200px] h-[200px] lg:w-[300px] lg:h-[300px] xl:w-[400px] xl:h-[400px] relative">
